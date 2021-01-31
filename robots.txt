@@ -1,0 +1,9 @@
+User-Agent: *
+Allow: /http://eredlearning.atwebpages.com/home
+Allow: /http://eredlearning.atwebpages.com/register
+Disallow: /http://eredlearning.atwebpages.com/admin
+
+Sitemap: http://eredlearning.atwebpages.com/sitemap.xml
+
+
+

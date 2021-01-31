@@ -1,0 +1,37 @@
+{
+  "Guest" : {
+    "denied" : {},
+    "Home" : ["*"],
+    "Register" : ["login","register"],
+    "Admin" : ["index"],
+    "Restricted" : ["*"],
+    "Notfound" : ["*"]
+  },
+  "Etudiant" : {
+      "denied" : {
+      "Enseignant" : ["*"],
+      "Register" : ["login","register"]
+    },
+    "Home" : ["*"],
+    "Register" : ["logout"],
+    "Restricted" : ["*"],
+    "Etudiant" : ["*"],
+    "Notfound" : ["*"]
+  },
+  "Enseignant" : {
+      "denied" : {
+      "Etudiant" : ["*"],
+      "Register" : ["login","register"]
+    },
+    "Home" : ["*"],
+    "Register" : ["logout"],
+    "Restricted" : ["*"],
+    "Ressource" : ["index"],
+    "Enseignant" : ["*"],
+    "Notfound" : ["*"]
+  },
+  "Administrateur" : {
+    "Admin": ["*"],
+    "Notfound" : ["*"]
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "Home" : "enseignant/index",
+  "Mes modules" : "enseignant/mescours",
+  "Gestion des devoirs" : "enseignant/events"
+}

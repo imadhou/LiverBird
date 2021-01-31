@@ -1,0 +1,15 @@
+
+Options -Indexes
+
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond $1 !^(config|core|cours|images|css|js)
+
+RewriteRule ^([^.]+)$ index.php?/$1 [L]
+
+#ErrorDocument 403 http://eredlearning.atwebpages.com/restricted
+ErrorDocument 404 http://eredlearning.atwebpages.com/notfound/
+

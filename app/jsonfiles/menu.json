@@ -1,0 +1,5 @@
+{
+  "Se Connecter" : "register/login",
+  "Se deconnecter" : "register/logout",
+  "Creer un compte" : "register/register"
+}
